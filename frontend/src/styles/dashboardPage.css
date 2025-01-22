@@ -1,0 +1,93 @@
+/* Dashboard container styling */
+.dashboard-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styling */
+  .dashboard-header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  /* Navigation links */
+  .dashboard-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #333;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .dashboard-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: 0.3s;
+  }
+  
+  .dashboard-nav a:hover {
+    background: #575757;
+    border-radius: 5px;
+  }
+  
+  /* Book list section */
+  .book-list {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .book-list h2 {
+    color: #333;
+  }
+  
+  /* Book table styling */
+  .books-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .books-table th, .books-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .books-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .books-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .books-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Button styles */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
